@@ -20,4 +20,5 @@ db.on('error',()=>{
     console.log("Error on connection");
 });
 
+//exporting db 
 module.exports = db;
